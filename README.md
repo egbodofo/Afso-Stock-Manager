@@ -1,14 +1,14 @@
-# React-Native Ecommerce App :bomb:
+# React-Native Stock Manager App
 
-# Hi, We are Team Charlie! 👋
+# Hi, We are the Digitan Solutions! 👋
 
-[![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/UsamaSarwar/reactnative-ecommerce-charlie)
+[![Developer Website](https://digitansolutions.tech)]
 
 ## `Development Stack` ➡️ `MERN Stack`
 
-### `Backend on NodeJs` ➡️ [https://github.com/abidrazaa/backend-node](https://github.com/abidrazaa/backend-node)
+### `Backend on NodeJs`
 
-Open-Source React Native Ecommerce Cross Platform Mobile App :iphone:
+Open-Source React Native Stock Manager Cross Platform Mobile App :iphone:
 
 ## Mockups
 
@@ -42,7 +42,7 @@ Open-Source React Native Ecommerce Cross Platform Mobile App :iphone:
 To clone this repo, type the following command
 
 ```
-git clone https://github.com/UsamaSarwar/reactnative-ecommerce-charlie.git
+git clone https://github.com/egbodofo/Afso-Stock-Manager.git
 ```
 
 ### `Node Package Manager`
@@ -66,25 +66,3 @@ npm start -- --reset-cache
 # or
 yarn start -- --reset-cache
 ```
-
-# v22.07.28
-
-The demonstration of Signup flow and the flow of login from normal user and admin can be seen from [here](https://drive.google.com/drive/folders/1jnFENm2_fdwvpfrqEZxrqx9pOThvSMa3)
-
-The demonstration of the app can be seen from [here](https://drive.google.com/drive/folders/1PNyGSzUDNxUtrmtVk9bp8Lp82INrSct-)
-
-# Documentation
-
-The complete documentation of the project i.e. Software Requirement Specifications, Technologies used can be seen from [here](https://docs.google.com/document/d/1I253JrdKuB3wEQxKVfp_DK8Kuxfb8WrvGbtDqrCsHEc)
-
-The mockup designs of the application can be seen from [here](https://docs.google.com/presentation/d/1Imw0qHmIPhe_0FL_rpanTAoip-ps9dP-YuZRfTybnIM/edit#slide=id.gc6fa3c898_0_0)
-
-# Presentation
-
-The presentation of the Mockups can be seen from [here](https://www.youtube.com/watch?v=vgdUdXEXILA)
-
-## Thanks to all the contributors ❤️
-
-<a href = "https://github.com/UsamaSarwar/reactnative-ecommerce-charlie">
-  <img src = "https://contrib.rocks/image?repo=UsamaSarwar/reactnative-ecommerce-charlie"/>
-</a>
