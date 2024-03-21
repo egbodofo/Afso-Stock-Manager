@@ -17,6 +17,7 @@ import CustomAlert from "../../components/CustomAlert/CustomAlert";
 import ProgressDialog from "react-native-progress-dialog";
 import InternetConnectionAlert from "react-native-internet-connection-alert";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { Alert } from "react-native";
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
@@ -49,6 +50,22 @@ const LoginScreen = ({ navigation }) => {
     redirect: "follow",
   };
 
+  // Only admin can register
+  const noNewRegistrationAlert = () => {
+    Alert.alert(  
+      'Alert Title',  
+      'Contact Afso Admin To Register',  
+      [  
+          {  
+              text: 'Cancel',  
+              onPress: () => console.log('Cancel Pressed'),  
+              style: 'cancel',  
+          },  
+          {text: 'OK', onPress: () => console.log('OK Pressed')},  
+      ]  
+    );  
+  }
+
   //method to validate the user credentials and navigate to Home Screen / Dashboard
   const loginHandle = () => {
     setIsloading(true);
@@ -65,6 +82,11 @@ const LoginScreen = ({ navigation }) => {
     if (!email.includes("@")) {
       setIsloading(false);
       return setError("Email is not valid");
+    }
+    // Only admin can login
+    if (email !== "admin@afso.com") {
+      setIsloading(false);
+      return setError("Only Afso Admin Can Login");
     }
     // length of email must be greater than 5 characters
     if (email.length < 6) {
@@ -162,10 +184,10 @@ const LoginScreen = ({ navigation }) => {
         <View style={styles.bottomContainer}>
           <Text>Don't have an account?</Text>
           <Text
-            onPress={() => navigation.navigate("signup")}
+            onPress={noNewRegistrationAlert}
             style={styles.signupText}
           >
-            signup
+            Signup
           </Text>
         </View>
       </KeyboardAvoidingView>

@@ -1,6 +1,8 @@
 # React-Native Stock Manager App
 
-# Hi, We are the Digitan Solutions! 👋
+# Hi, We are the Digitan Solutions! 
+
+<img align="left" alt="Afso Stock Manager" src="image/digitan-solution-logo.png" width="1000"/>
 
 [![Developer Website](https://digitansolutions.tech)]
 
@@ -9,13 +11,6 @@
 ### `Backend on NodeJs`
 
 Open-Source React Native Stock Manager Cross Platform Mobile App :iphone:
-
-## Mockups
-
-<img align="left" alt="Afso Stock Manager" src="image/easybuy.png" width="1000"/>
-
-.
-
 
 ## Features :memo:
 

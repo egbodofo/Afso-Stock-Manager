@@ -13,7 +13,7 @@ import { Ionicons } from "@expo/vector-icons";
 import React, { useEffect, useState } from "react";
 import cartIcon from "../../assets/icons/cart_beg.png";
 import scanIcon from "../../assets/icons/scan_icons.png";
-import easybuylogo from "../../assets/logo/logo.png";
+import afsologo from "../../assets/logo/logo.png";
 import { colors } from "../../constants";
 import CustomIconButton from "../../components/CustomIconButton/CustomIconButton";
 import ProductCard from "../../components/ProductCard/ProductCard";
@@ -133,7 +133,7 @@ const HomeScreen = ({ navigation, route }) => {
           <Ionicons name="menu" size={30} color={colors.muted} />
         </TouchableOpacity>
         <View style={styles.topbarlogoContainer}>
-          <Image source={easybuylogo} style={styles.logo} />
+          <Image source={afsologo} style={styles.logo} />
           <Text style={styles.toBarText}>Afso Stock Manager</Text>
         </View>
         <TouchableOpacity

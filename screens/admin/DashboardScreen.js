@@ -59,14 +59,6 @@ const DashboardScreen = ({ navigation, route }) => {
               screenName: "viewusers",
             },
             {
-              id: 2,
-              title: "Orders",
-              value: result.data?.ordersCount,
-              iconName: "cart",
-              type: "secondary",
-              screenName: "vieworder",
-            },
-            {
               id: 3,
               title: "Products",
               value: result.data?.productsCount,
@@ -195,15 +187,6 @@ const DashboardScreen = ({ navigation, route }) => {
               }
               onPressSecondary={() =>
                 navigation.navigate("addcategories", { authUser: user })
-              }
-              type="morden"
-            />
-            <OptionList
-              text={"Orders"}
-              Icon={Ionicons}
-              iconName={"cart"}
-              onPress={() =>
-                navigation.navigate("vieworder", { authUser: user })
               }
               type="morden"
             />
